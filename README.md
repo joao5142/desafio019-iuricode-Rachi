@@ -1,4 +1,4 @@
-<h1>Desafio 19 - Rachi/h1>
+<h1>Desafio 19 - Rachi</h1>
 <h4>🚀 Desafio Rachi desenvolvido com Vue.js</h4>
 
 <h2>🚧 Status do projeto</h2>
@@ -26,8 +26,8 @@
 </div>
 
 <h2>🖼️ Demonstração da aplicação</h2>
-<img margin-bottom="20px" src="src/assets/images/readme.png">
-<img margin-bottom="20px" src="src/assets/readme2.png">
+<img margin-bottom="20px" src="src/assets/images/readme1.png">
+<img margin-bottom="20px" src="src/assets/images/readme2.png">
 <h4  style="display: inline_block">Visualização do site :</h4><a style="display: inline_block" target="blank" href="">Preview no Netlify</a>
 
 <h2>🧑🏻‍ Autor</h2>
