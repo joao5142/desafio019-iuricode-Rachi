@@ -243,6 +243,9 @@ export default {
 }
 
 .section-working {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
   &__title {
     font-size: 3rem;
     font-weight: 600;

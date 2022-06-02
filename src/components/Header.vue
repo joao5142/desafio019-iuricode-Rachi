@@ -1,7 +1,7 @@
 <template>
   <header class="py-3 container">
     <nav class="d-flex flex-wrap justify-content-between nav-header">
-      <img src="@/assets/images/logo.svg" alt="" class="mt-3 me-3" />
+      <img src="@/assets/images/logo.svg" alt="" class="mt-3 me-5" />
 
       <ul class="d-flex nav-header__list mt-3">
         <li>Funcionalidades</li>
@@ -24,7 +24,7 @@ export default {
   &__list {
     padding-left: 0px;
     margin-bottom: 0px;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
     flex: 1;
 
@@ -62,9 +62,15 @@ export default {
     li:not(li:nth-child(1)) {
       margin-left: 50px;
     }
+
     @media (max-width: 450px) {
       li:not(li:nth-child(1)) {
         margin-left: 10px;
+      }
+    }
+    @media (max-width: 767px) {
+      & {
+        justify-content: center;
       }
     }
   }
