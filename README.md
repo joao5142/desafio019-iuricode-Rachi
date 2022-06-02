@@ -6,7 +6,7 @@
 
 <h2>🖥️ Pré-requisitos e como rodar a aplicação/testes</h2>
 <p>Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[Git](https://git-scm.com), Vue-cli[Vue.js](https://vuejs.org/). </p>
+[Git](https://git-scm.com)</p>
 <h3>Rodando a Aplicação</h3>
 <ul>
 	<li>Clone esse repositório(git clone)</li>
