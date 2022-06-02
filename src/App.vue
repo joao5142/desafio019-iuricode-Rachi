@@ -3,7 +3,7 @@
 </template>
 
 <style lang="scss">
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@600;400&display=swap");
 
 /*##RESET*/
 * {
@@ -38,16 +38,20 @@ li {
 }
 body {
   font-family: "Inter", sans-serif;
-  background-color: $white-color;
+  overflow-x: hidden;
+  background-color: $white-200-color;
+  scrollbar-color: $blue-color $white-color;
+  scrollbar-width: 12px;
 }
-// body::-webkit-scrollbar {
-//   max-width: 10px;
-// }
-// body::-webkit-scrollbar-track {
-//   background: $white-color;
-// }
-// body::-webkit-scrollbar-thumb {
-//   background: $gray-dark-color;
-//   box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
-// }
+body::-webkit-scrollbar {
+  max-width: 10px;
+}
+body::-webkit-scrollbar-track {
+  background: $white-color;
+}
+body::-webkit-scrollbar-thumb {
+  background: $blue-color;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+}
 </style>
